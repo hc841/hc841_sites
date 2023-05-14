@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="utf-8">
+    <script src="Untitled-5.js"></script>
+</head>
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" required><br><br>
+    
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+    
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+    
+        <label for="confirm-password">Confirmar Senha:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+    
+        <label for="gender">Gênero:</label>
+        <select id="gender" name="gender">
+            <option value="male">Masculino</option>
+            <option value="female">Feminino</option>
+        </select><br><br>
+    
+        <input type="button" value="Gerar" onclick="verificarSenhas()"><br><br>
+    
+        <label for="data">Dados:</label>
+        <textarea id="data" name="data" readonly></textarea>
+    </form>
+</body>

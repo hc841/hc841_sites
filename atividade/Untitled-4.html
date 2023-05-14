@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Troca de Imagens</title>
+</head>
+<body>
+	<button type="button" onclick="trocarImagem()">Trocar Imagem</button>
+	<br><br>
+	<img id="imagem" src="imagem1.webp" alt="Imagem 1">
+	
+	<script>
+		function trocarImagem() {
+			var imagem = document.getElementById("imagem");
+			if (imagem.src.endsWith("imagem1.webp")) {
+				imagem.src = "imagem2.jpg";
+				imagem.alt = "Imagem 2";
+			} else {
+				imagem.src = "imagem1.webp";
+				imagem.alt = "Imagem 1";
+			}
+		}
+	</script>
+</body>
+</html>
