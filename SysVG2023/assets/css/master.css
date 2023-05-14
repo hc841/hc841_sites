@@ -1,0 +1,156 @@
+body,html{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+.bg-vaga {
+    background-color: #ffffff!important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+.bg-vaga-nav{
+    background: #31065a !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#ffffff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.gradiente{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,55,121,0) 0%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 200px;
+}
+.card{
+    margin-bottom: 20px;
+    border: 1px solid #31065a;
+    width: 90%;
+}
+.card-text{
+    height: 5em;
+}
+.jumbotron{
+    padding-top:80px;   
+    background: #31065a url(../img/ai1.jpg) center left no-repeat;
+    background-size: cover;
+    transition: background-size 5s;
+}
+.jumbotron:hover{
+    background-size: 150%;
+    transition-duration: 5s;
+}
+.circulo{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 100px;
+}
+.table{
+    color: #000000;
+}
+code{
+    color: #31065a !important;
+    font-weight: bold;
+}
+.btn-outline-danger {
+    color: #31065a;
+    background-color: transparent;
+    background-image: none;
+    border-color: #31065a;
+}
+.btn-outline-danger:hover{
+    color: #ffffff;
+    background-color: #31065a;
+    border-color: #31065a;
+}
+.direita{
+    display: flex;
+    justify-content: flex-end;
+}
+.espaco{
+    margin-left: 4%;
+}
+.radioB{
+    margin-left: 4%;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #31065a;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #31065a;
+  }
+  .cardBack1{
+    background: #31065a url(../img/laranja.png) center left no-repeat;
+    background-size: cover;
+  }
+  .cardBack2{
+    background: #31065a url(../img/vermelho.png) center left no-repeat;
+    background-size: cover;
+  }
+  .cardBody1{
+    background: #ffffff;
+  }
+  .cardBody2{
+    background: #ffffff;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #31065a;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #31065a;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus{
+    color:#31065a;
+    background-color:#ffffff;
+    border-color:#31065a;
+    outline:0;
+    box-shadow:0 0 0 .2rem #31065a;
+}

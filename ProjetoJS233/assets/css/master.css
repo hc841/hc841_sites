@@ -1,0 +1,45 @@
+body{
+    background-color: #C8CFE8;
+}
+.bg-light {
+    background-color: #C8CFE8!important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+.navbar{
+    background: #C8CFE8 !important;
+    color: #0c0c0c !important;
+}
+.navbar-toggler
+{
+    background: #5A5D69;
+}
+.navbar-toggler-icon
+{
+    color: #0c0c0c !important;
+}
+a{
+    color: #0c0c0c !important;
+}
+.card{
+    margin-bottom: 20px;
+}
+.jumbotron{
+    padding-top:80px;
+    background: #3B4569;
+    background-size: 50%;
+}
+.fundo{
+    background-color: #535e88;
+    height: auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+.bloco{
+    background-color: #3a683a;
+    height: 100px;
+}
+.bloco1{
+    background-color: #503353;
+    height: 100px;
+}
